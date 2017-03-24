@@ -3,7 +3,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.binhm.inbrand.fragment.DetailFragment;
+import com.example.binhm.inbrand.fragment.BaseInformationFragment;
+import com.example.binhm.inbrand.fragment.Describe_Use_Fragment;
 import com.example.binhm.inbrand.fragment.Producer_Fragment;
 
 /**
@@ -25,8 +26,10 @@ public class InformationAdapter extends FragmentStatePagerAdapter {
                 fra = new Producer_Fragment();
                 break;
             case 1:
-                fra = new DetailFragment();
+                fra = new BaseInformationFragment();
                 break;
+            case 2:
+                fra = new Describe_Use_Fragment();
         }
         return fra;
     }
@@ -38,14 +41,16 @@ public class InformationAdapter extends FragmentStatePagerAdapter {
                 title = "Nhà Sản Xuất";
                 break;
             case 1:
-                title = "Thông Tin Chi Tiết";
+                title = "Thông Tin Sản Phẩm";
                 break;
+            case 2:
+                title = "Mô tả và Cách sử dụng";
         }
         return title;
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }

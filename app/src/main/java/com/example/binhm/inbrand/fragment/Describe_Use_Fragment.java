@@ -7,41 +7,34 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.binhm.inbrand.R;
 
-import org.w3c.dom.Text;
+public class Describe_Use_Fragment extends Fragment {
 
-public class Producer_Fragment extends Fragment {
+    private TextView describe, use;
 
-    private TextView Code, Producere, address, phone, website;
-
-    public Producer_Fragment() {
-
+    public Describe_Use_Fragment() {
+        // Required empty public constructor
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_producer_, container, false);
+        View view = inflater.inflate(R.layout.fragment_describe__use_, container, false);
         return view;
     }
 
     public void initView(View view){
-
-        Code = (TextView)view.findViewById(R.id.tvCode);
-        Producere = (TextView)view.findViewById(R.id.tvNameProducer);
-        address = (TextView)view.findViewById(R.id.tvAddress);
-        phone = (TextView)view.findViewById(R.id.tvPhone);
-        website = (TextView)view.findViewById(R.id.tvLinkWebsite);
+        describe = (TextView)view.findViewById(R.id.tvDescribe);
+        use = (TextView)view.findViewById(R.id.tvUse);
     }
+
 }

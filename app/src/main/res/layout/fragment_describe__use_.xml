@@ -1,0 +1,71 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.binhm.inbrand.fragment.Describe_Use_Fragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvDescribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="15"
+            android:padding="5dp"
+            android:text="Việt Cổ Trà Shan thượng hạng là sản phẩm trà (chè) Shan tuyết được hái theo quy chuẩn 1 tôm 2 lá non. Từng búp chè được bà con H’Mong lựa chọn tỉ mỉ trên những cây chè Shan tuyết cổ thụ có tuổi đời trên 200 tuổi và nằm ở độ cao trên 1400m của rừng chè Suối Giàng, Văn Chấn, Yên Bái. Đây là sản vật đặc biệt thơm ngon bởi búp chè dường như đã hội tụ đủ những tinh hoa đất trời Tây Bắc."
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hướng dẫn sử dụng"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20sp"
+            android:padding="5dp"
+           android:text="Để từ 1 đến 4 túi vào bình thủy nước sôi. Sau 1-2 giờ, dùng nóng hoặc lạnh thay nước giải khát hằng ngày. "
+            android:maxLines="15"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

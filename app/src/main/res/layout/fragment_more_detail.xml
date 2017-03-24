@@ -1,14 +1,12 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_width="match_parent">
-<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp"
-    tools:context="com.example.binhm.inbrand.fragment.Producer_Fragment">
+    android:layout_height="match_parent"
+    tools:context="com.example.binhm.inbrand.fragment.MoreDetailFragment">
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mã vạch"
+            android:text="Mã Sản Phẩm"
             android:textSize="20sp"
             android:paddingBottom="5dp"
             android:paddingTop="10dp"
@@ -50,18 +48,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tên công ty"
+            android:text="Nguồn gốc"
             android:paddingBottom="10dp"
             android:paddingTop="5dp"
             android:textAppearance="?android:textAppearanceLarge"
             android:textSize="20sp" />
         <TextView
-            android:id="@+id/tvNameProducer"
+            android:id="@+id/tvOrigin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorText"
             android:textAppearance="?android:textAppearanceLarge"
-            android:text="IDoc.Net"
+            android:text="Trà búp 1 tôm 2 lá non"
             android:paddingBottom="10dp"
             android:textSize="20sp"
             android:maxLines="1"/>
@@ -79,18 +77,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Địa chỉ"
+            android:text="Quy cách"
             android:paddingBottom="10dp"
             android:paddingTop="5dp"
             android:textAppearance="?android:textAppearanceLarge"
             android:textSize="20sp" />
         <TextView
-            android:id="@+id/tvAddress"
+            android:id="@+id/tvSpecification"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorText"
             android:textAppearance="?android:textAppearanceLarge"
-            android:text="Huynhf THúc Kháng _ Hàn Nội"
+            android:text="Đã bán"
             android:paddingBottom="10dp"
             android:textSize="20sp"
             android:maxLines="1"/>
@@ -108,19 +106,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Liên hệ"
+            android:text="Lô sản xuất"
             android:textAppearance="?android:textAppearanceLarge"
             android:textSize="20sp"
             android:paddingBottom="10dp"
             android:paddingTop="5dp" />
         <TextView
-            android:id="@+id/tvPhone"
+            android:id="@+id/tvProductionBatch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorText"
             android:textSize="20sp"
             android:textAppearance="?android:textAppearanceLarge"
-            android:text="01659025224"
+            android:text="3/3/2016"
             android:paddingBottom="10dp"
             android:maxLines="1"/>
     </LinearLayout>
@@ -141,16 +139,46 @@
             android:paddingBottom="10dp"
             android:paddingTop="5dp"
             android:textAppearance="?android:textAppearanceLarge"
-            android:text="Website" />
+            android:text="Giới thiệu sản phẩm" />
         <TextView
-            android:id="@+id/tvLinkWebsite"
+            android:id="@+id/tvIntroduce"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorText"
-            android:text="@string/link_website"
+            android:text="3/3/2017"
             android:textAppearance="?android:textAppearanceLarge"
             android:textSize="20sp"
             android:paddingBottom="10dp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quy trình sản xuất"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvProcess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Thị Trấn Đông Anh"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
             android:maxLines="1"/>
     </LinearLayout>
     <TextView
