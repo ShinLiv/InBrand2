@@ -1,0 +1,199 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context="com.example.binhm.inbrand.fragment.Producer_Fragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvHeaderCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã vạch"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvHeaderOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:text="Xuất xứ"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvContentOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:text="Viet Nam"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvHeaderProducer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên công ty"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvNameProducer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="IDoc.Net"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvHeaderAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Huynhf THúc Kháng _ Hàn Nội"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvHeaderPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Liên hệ"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp" />
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="01659025224"
+            android:paddingBottom="10dp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvHeaderWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Website" />
+        <TextView
+            android:id="@+id/tvLinkWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:text="@string/link_website"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDivide"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>
+</ScrollView>

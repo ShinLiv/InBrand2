@@ -1,0 +1,395 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.binhm.inbrand.fragment.DetailFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Tên sản phẩm"/>
+        <TextView
+            android:id="@+id/tvNameProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Mã sản phẩm"/>
+        <TextView
+            android:id="@+id/tvCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Quy cách"/>
+        <TextView
+            android:id="@+id/tvSpecifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Nguồn gốc"/>
+        <TextView
+            android:id="@+id/tvOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Tiêu chuẩn"/>
+        <TextView
+            android:id="@+id/tvStandar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Lô sản xuất"/>
+        <TextView
+            android:id="@+id/tvShipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Ngày sản xuất"/>
+        <TextView
+            android:id="@+id/tvDateFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Hạn sử dụng"/>
+        <TextView
+            android:id="@+id/tvDateEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Giới thiệu sản phẩm"/>
+        <TextView
+            android:id="@+id/tvIntroduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Quy trình sảnh xuất"/>
+        <TextView
+            android:id="@+id/tvProcess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Trạng thái sản phẩm"/>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDivide"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Địa điểm bán"/>
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:text="123457928572390850982490"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

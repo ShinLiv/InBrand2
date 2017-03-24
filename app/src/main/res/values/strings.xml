@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InBrand</string>
+    <string name="hint_findcode">Nhập mã code</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link_website"><a href=" https://ntea.vn/"> https://ntea.vn/</a></string>
+</resources>
